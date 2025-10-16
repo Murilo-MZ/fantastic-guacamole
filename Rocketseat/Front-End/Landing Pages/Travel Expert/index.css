@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  padding-top: 170px;
+
+  background-image: url(https://zagblogmedia.s3.amazonaws.com/wp-content/uploads/2020/02/10140728/viagem-a-trabalho-scaled.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  height: 100vh;
+
+  font-family: 'Cinzel', serif;
+
+}
+
+h1 {
+  font-size: 64px;
+  line-height: 86px;
+  color: white;
+}
+
+h1 span {
+  color: orange;
+}
+
+p {
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 72px;
+  color: white;
+  opacity: .9;
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  padding: 16px 32px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: white;
+  border-radius: 80px;
+  
+}
+
+a:hover,
+.btn-travelNow {
+  text-decoration: none;
+  background-color: orange;
+}
+
